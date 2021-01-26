@@ -1,5 +1,4 @@
 # Simple Logger
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/laravel-http-logger.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-http-logger)
 
 This Laravel package adds a middleware which can parse and log requests to the daily log driver.
 
