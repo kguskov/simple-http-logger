@@ -1,0 +1,28 @@
+{
+    "name": "guskov/simple-logger",
+    "description": "This package adds a middleware which can parse and log requests to the daily log driver",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "illuminate/support": "^8.24",
+        "ext-json": "*"
+    },
+    "authors": [
+        {
+            "name": "Kirill Guskov",
+            "email": "kirill.guskov@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Guskov\\Logger\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Guskov\\Logger\\LoggerServiceProvider"
+            ]
+        }
+    }
+}
